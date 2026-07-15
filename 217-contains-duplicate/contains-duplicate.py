@@ -10,12 +10,6 @@ class Solution:
         #         return True
         # return False
 
-        # nums2=[]
-        # for i in nums:
-        #     if i not in nums2:
-        #         nums2.append(i)
-        #         print(nums2)
-
         # for i in range(len(nums)):
         #     for j in range(i+1,len(nums)):
         #         if nums[i]==nums[j]:
@@ -32,4 +26,3 @@ class Solution:
             if nums[i-1]==nums[i]:
                 return True
         return False
-        # print(nums)
