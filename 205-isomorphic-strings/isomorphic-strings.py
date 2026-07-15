@@ -9,5 +9,3 @@ class Solution:
                 return False
             char_map[sc]=tc
         return True
-        # print(char_index_s)
-        # print(char_index_t)
