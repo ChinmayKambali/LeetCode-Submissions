@@ -11,7 +11,7 @@ class Solution:
         j = 0
         for i in range(len(ans)):
             if ans[i] in vowels:
-                ans[i] = s1[j]
-                j += 1
+                ans[i]=s1[j]
+                j+=1
 
         return "".join(ans)
