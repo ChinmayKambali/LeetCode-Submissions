@@ -7,8 +7,4 @@ class Solution:
                 res-=roman[a]
             else:
                 res+=roman[a]
-        # s1=list(s)
-        # for i in range(len(s1)):
-        #     if s1[i] in roman:
-        #         res+=roman.get(s1[i])
         return res+roman[s[-1]]
