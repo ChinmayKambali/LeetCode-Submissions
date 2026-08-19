@@ -7,4 +7,5 @@ class Solution:
                 return True
             else:
                 seen[val]=i
+        
         return False
