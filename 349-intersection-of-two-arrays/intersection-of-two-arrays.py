@@ -5,6 +5,5 @@ class Solution:
         for val in nums1:
             if val in nums2:
                 intersection.append(val)
-                
-        unique = list(set(intersection))
-        return unique
+
+        return list(set(intersection))
