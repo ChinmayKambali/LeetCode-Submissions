@@ -7,7 +7,5 @@ class Solution:
         for i in range(n):
             for j in range(i+1,n):
                 if nums[i]>nums[j]:
-                    temp=nums[i]
-                    nums[i]=nums[j]
-                    nums[j]=temp
+                    nums[i],nums[j]=nums[j],nums[i]
         return nums
