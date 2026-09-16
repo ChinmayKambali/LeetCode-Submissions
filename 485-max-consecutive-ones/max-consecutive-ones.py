@@ -9,9 +9,6 @@ class Solution:
             else:
                 count += 1
             
-            # if Max < count:
-            #     Max = count
-            
             Max=max(Max,count)
 
         return Max
