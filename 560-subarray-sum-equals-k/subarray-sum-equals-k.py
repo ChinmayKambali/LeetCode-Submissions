@@ -5,9 +5,9 @@ class Solution:
 
         for n in nums:
             sum += n
-            
-            if sum - k in sub_num:
-                count += sub_num[sum-k]
+            target=sum-k
+            if target in sub_num:
+                count += sub_num[target]
             
             sub_num[sum] = 1 + sub_num.get(sum, 0)
         
