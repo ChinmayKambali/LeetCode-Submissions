@@ -7,9 +7,13 @@ class Solution:
         r=[0]*n
         for i in range(n):
             j=-i-1
+
             l[i]=lmult
             r[j]=rmult
+
             lmult*=nums[i]
             rmult*=nums[j]
+
+            
         return [i*j for i,j in zip(l,r)]
                 
